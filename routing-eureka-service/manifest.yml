@@ -1,0 +1,6 @@
+---
+applications:
+- name: routing-eureka-service
+  path: ./target/routing-eureka-service.jar
+  random-route: true
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
